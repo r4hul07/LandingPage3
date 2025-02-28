@@ -158,3 +158,165 @@ main .right .kalagola h3 {
   font-size: 1.5vw;
   font-weight: 550;
 }
+
+
+@media  (max-width: 600px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        height: 100%;
+        width: 100%;
+        font-family: "Work Sans", sans-serif;
+        padding :4px 20px 0 20px;
+      }
+
+      main .left {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        
+      }
+      main .left h1 {
+        font-size: 17vw;
+        line-height: 19vw;
+        font-weight: 500;
+      }
+      
+      main .left .left-bottom {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      main .left .left-bottom .colors {
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+        width: fit-content;
+        padding: 4px 6px;
+        border-radius: 50px;
+      }
+      
+      main .left .left-bottom .colors h2 {
+        font-size: 3vw;
+        font-weight: 500;
+        margin-right: 7px;
+      }
+      
+      main .left .left-bottom .colors .color1 {
+        height: 12px;
+        width: 12px;
+        border-radius: 50%;
+        background-color: tomato;
+      }
+      
+      main .left .left-bottom .colors .color2 {
+        height: 12px;
+        width: 12px;
+        border-radius: 50%;
+        background-color: chartreuse;
+      }
+      
+      main .left .left-bottom h3 {
+        margin-top: 30px;
+        font-size: 5vw;
+        font-weight: 500;
+      }
+      
+      main .left .left-bottom p {
+        margin-top: 8px;
+        width: 65%;
+        font-size: 2.6vw;
+        line-height: 3vw;
+        font-weight: 400;
+      }
+
+      main .right {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 45px;
+        padding: 0;
+        width: 100%;
+        position: relative;
+      }
+
+      main .right .right-top{
+        padding: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      main .right .right-top h3 {
+        font-size: 5vw;
+        font-weight: 600;
+      }
+      
+      main .right .right-top .ratings {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      main .right .right-top .ratings h5 {
+        font-size: 5vw;
+        font-weight: 500;
+        margin-right: 10px;
+      }
+      
+      main .right .right-top .ratings i {
+        font-size: 4vw;
+        color: #31774d;
+      }
+      
+      main .right .right-bottom {
+        height: 94%;
+        overflow: hidden;
+      }
+      
+      main .right .right-bottom img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+      main .right .kalagola {
+        border: 6px solid white;
+        box-shadow: inset 0px 0px 50px 15px rgba(0,0,0,0.75);
+        height: 7rem;
+        width: 7rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        color: white;
+        background-color: #436c61;
+        position: absolute;
+        top: -10%;
+        right: 5%;
+      }
+      
+      main .right .kalagola h3 {
+        font-size: 3vw;
+        font-weight: 550;
+      }
+      
+      .endhead {
+        position: absolute;
+        transform-origin: 0 0;
+        rotate: 0deg;
+        left: 0;
+        bottom: 100.5%;
+        font-size: 5.6vw;
+        font-weight: 550;
+      }
+      
+    }
+
+    
