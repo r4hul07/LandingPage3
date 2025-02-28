@@ -128,7 +128,8 @@ main .right .right-bottom img {
 }
 
 main .right .kalagola {
-    border: 2px solid white;
+  border: 6px solid white;
+  box-shadow: inset 0px 0px 50px 15px rgba(0,0,0,0.75);
   height: 7rem;
   width: 7rem;
   border-radius: 50%;
@@ -136,8 +137,8 @@ main .right .kalagola {
   justify-content: center;
   align-items: center;
   padding: 10px;
-  color: #B0BBC6;
-  background-color: #436C61;
+  color: white;
+  background-color: #436c61;
   position: absolute;
   top: 23%;
   right: -13%;
@@ -145,5 +146,15 @@ main .right .kalagola {
 
 main .right .kalagola h3 {
   font-size: 1vw;
+  font-weight: 550;
+}
+
+.endhead {
+  position: absolute;
+  transform-origin: 0 0;
+  rotate: -90deg;
+  left: -11%;
+  bottom: 3%;
+  font-size: 1.5vw;
   font-weight: 550;
 }
